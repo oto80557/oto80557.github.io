@@ -272,3 +272,6 @@ column-width: 100%;
 }
 }
 
+.mapa:hover{
+  text-decoration: underline!important;
+}
