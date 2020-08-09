@@ -42,10 +42,10 @@
               aria-haspopup="true" aria-expanded="false">Juegos</a>
             <div class="dropdown-menu bg-gray" aria-labelledby="navbarDropdown">
               <div class="nav-item">
-                <a class="dropdown-item" href="relaciona.html">¿Recuerdas los reinos de la naturaleza?</a>
+                <a class="dropdown-item" href="relaciona.html">Selección única</a>
               </div>
               <div class="nav-item">
-                <a class="dropdown-item" href="asocia.html">Asocia las relaciones de interdependencia</a>
+                <a class="dropdown-item" href="asocia.html">Asocie</a>
               </div>
             </div>
           </li>
@@ -73,26 +73,22 @@
       <div class="section12 row">
         <div class="col-md-6 barra">
           <dl>
-            <dt class="tileC">
-              Contacte con nosotros
-            </dt>
+            <h5 class="tileC">
+              Envianos un mensaje
+            </h5>
             <br>
             <dd>
-              <form action="https://formspree.io/xeqrdqkk" method="POST">
-                <label>
-                  E-mail:
-                  <br>
-                  <input type="text" name="_replyto">
+              <form class="formC" action="https://formspree.io/xeqrdqkk" method="POST">
+                <label class="col-md-10">
+                  <input type="text" placeholder="NOMBRE">
                 </label>
-                <label>
-                  Mensaje:
-                  <br>
-                  <textarea name="message"></textarea>
+                <label class="col-md-10">
+                  <input type="text" name="_replyto" placeholder="CORREO">
                 </label>
-
-                <!-- your other form fields go here -->
-                <br>
-                <button type="submit">Enviar</button>
+                <label class="col-md-10">
+                  <textarea name="message" placeholder="MENSAJE"></textarea>
+                </label>
+                <button class="col-sm-11 col-md-9 enviar" type="submit">ENVIAR</button>
               </form>
             </dd>
             <br>
@@ -103,12 +99,13 @@
           <dl>
             <dd>
               <br>
-              Correo: yodocentecr@gmail.com
+              <dt>
+              Correo: </dt>yodocentecr@gmail.com
               <br>
               <br>
             <dt>
               Comparté la web en redes sociales
-            </dt>
+            </dt><br>
             <!-- Load Facebook SDK for JavaScript -->
             <div id="fb-root"></div>
             <script>(function (d, s, id) {
