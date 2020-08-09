@@ -11,6 +11,10 @@ h1{
   font-size: 2rem!important;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .cita{
   text-indent: 0px;
 }
@@ -289,3 +293,52 @@ column-width: 100%;
     margin-top: 15%;
   }
   }
+
+.more{
+  color: #1b1b1b!important;
+  font-weight: bold;
+}
+
+.more:hover{
+  text-decoration: underline!important;
+}
+  /*--------------------------Section 12-----------------------------------------*/
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #1b1b1b;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.formC input:focus, .formC textarea:focus {
+box-shadow: 0 0 3px #787878 !important;
+}
+input:focus, textarea:focus, select:focus {
+outline-offset: 0px !important;
+outline: none !important;
+}
+
+.tileC{
+  margin-left: 2%;
+}
+
+.enviar{
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 2.5%;
+  cursor: pointer;
+  outline: inherit;
+  margin-left: 4.3%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.enviar:hover{
+  background-color: #228f3b;
+}
+
+/*---------------------------Fin section 12------------------------------------*/
