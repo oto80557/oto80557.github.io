@@ -7,6 +7,10 @@ p{
   text-indent: -30px;
 }
 
+h1{
+  font-size: 2rem!important;
+}
+
 .cita{
   text-indent: 0px;
 }
@@ -275,3 +279,13 @@ column-width: 100%;
 .mapa:hover{
   text-decoration: underline!important;
 }
+
+.page-body{
+  margin-top: 5%;
+}
+
+@media (max-width: 768px) {
+  .page-body{
+    margin-top: 15%;
+  }
+  }
