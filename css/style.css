@@ -15,6 +15,13 @@ html {
   scroll-behavior: smooth;
 }
 
+@media (max-width: 450px){
+  body{
+    margin-left: 2%!important;
+  }
+}
+
+
 .cita{
   text-indent: 0px;
 }
